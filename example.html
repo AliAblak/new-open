@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UFT-8">
+    <title>Eğitim Ders</title>
+</head>
+
+<body>
+    <a href="javascript:example('https://www.google.com.tr', 1000, 650);">Google'a Git</a>
+    
+    <script type="text/javascript" language="javascript">
+    
+        function example(adres, istenilengenislik, istenilenyukseklik){
+            var solhesap    =   parseInt((screen.availWidth/2) - (istenilengenislik/2));
+            var usthesap    =   parseInt((screen.availHeight/2) - (istenilenyukseklik/2));
+            var feature     =   "width=" + istenilengenislik + ", height=" + istenilenyukseklik + ", left=" + solhesap + ", top=" + usthesap;
+            window.open(adres, "Google", feature);
+        }
+
+    </script>
+</body>
+</html>
